@@ -51,6 +51,18 @@ def topics():
            '  <li>Save</li>' + \
            '</ul></h3>'
     display(HTML(html))
+    time.sleep(6)
+
+    html = '<h2>What this session will not cover</h2>'
+    display(HTML(html))
+    time.sleep(1)
+
+    html = '<h3><ul>' + \
+           '  <li>NumPy</li>' + \
+           '  <li>Pandas</li>' + \
+           '  <li>Matplotlib</li>' + \
+           '</ul></h3>'
+    display(HTML(html))
 
 
 def env():
